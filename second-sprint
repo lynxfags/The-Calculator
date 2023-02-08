@@ -1,0 +1,55 @@
+print('The Calculator')
+
+print('Please choose a mode from the following:')
+print('Addition')
+print('Subtraction')
+print('Multiplication')
+print('Division')
+
+print('What is your selection?')
+mode = input('Input here  >  ')
+print('You have selected:', mode)
+
+if mode == ('Addition'):
+  def getInt(prompt):
+    num = input(prompt)
+    return int(num)
+  for i in range(5):
+    firstNumber = getInt('Enter first number  >  ')
+    secondNumber = getInt('Enter second number  >  ')
+    addAnswer = firstNumber + secondNumber
+    print('{} + {} = {}'.format (firstNumber, secondNumber, addAnswer))
+    break
+
+if mode == ('Subtraction'):
+  def getInt(prompt):
+    num = input(prompt)
+    return int(num)
+  for i in range(5):
+    firstNumber = getInt('Enter first number  >  ')
+    secondNumber = getInt('Enter second number  >  ')
+    addAnswer = firstNumber - secondNumber
+    print('{} - {} = {}'.format (firstNumber, secondNumber, addAnswer))
+    break
+
+if mode == ('Multiplication'):
+  def getInt(prompt):
+    num = input(prompt)
+    return int(num)
+  for i in range(5):
+    firstNumber = getInt('Enter first number  >  ')
+    secondNumber = getInt('Enter second number  >  ')
+    addAnswer = firstNumber * secondNumber
+    print('{} x {} = {}'.format (firstNumber, secondNumber, addAnswer))
+    break
+
+if mode == ('Division'):
+  def getInt(prompt):
+    num = input(prompt)
+    return int(num)
+  for i in range(5):
+    firstNumber = getInt('Enter first number  >  ')
+    secondNumber = getInt('Enter second number  >  ')
+    addAnswer = firstNumber / secondNumber
+    print('{} ÷ {} = {}'.format (firstNumber, secondNumber, addAnswer))
+    break
