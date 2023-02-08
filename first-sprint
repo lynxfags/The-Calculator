@@ -1,0 +1,10 @@
+print('The Calculator')
+def getInt(prompt):
+  num = input(prompt)
+  return int(num)
+
+for i in range(5):
+  firstNo = getInt('Add first number: ')
+  secondNo = getInt('Add second number: ')
+  addAns = firstNo + secondNo
+  print('{} + {} = {}'.format (firstNo, secondNo, addAns))
